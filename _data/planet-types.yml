@@ -1,11 +1,11 @@
-- title: Testing1
-  folder: testing1
-  content: "1kfnglkdngfl **fdknglkdngglkn** fdknglknd dlknslknfkdn eklnfklnf1"
+- title: Dwarf
+  folder: dwarf
+  content: "A **dwarf planet** is a planetary-mass object that is neither a planet nor a satellite."
 
-- title: Testing2
-  folder: testing2
-  content: "2kfnglkdngfl fdknglkdngglkn **fdknglknd** dlknslknfkdn eklnfklnf2"
+- title: Terrestrial
+  folder: terrestrial
+  content: "A **terrestrial planet**, **telluric planet** or **rocky planet** is a planet that is composed primarily of silicate rocks or metals."
 
-- title: Testing3
-  folder: testing3
-  content: "3kfnglkdngfl fdknglkdngglkn fdknglknd **dlknslknfkdn** eklnfklnf3"
+- title: Gas Giant
+  folder: gas-giant
+  content: "A **gas giant** is a large planet that is not primarily composed of rock or other solid matter."

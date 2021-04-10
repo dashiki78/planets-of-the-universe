@@ -1,5 +1,8 @@
 ---
 layout: default
+titleAfter: Stellar astronomical objects from the Universe
+meta: wonhyuk is smart
+priority: 1.0
 ---
 
 <h1>my name is wonhyuk</h1>
@@ -9,7 +12,7 @@ layout: default
 <ol>
   {% for planet in site.data.planet-types %}
   <li>
-    <a href="#">{{planet.title}}</a>
+    <a href="{{site.baseurl}}/planets/{{planet.folder}}">{{planet.title}}</a>
     {{planet.content | | markdownify }}
   </li>
   {% endfor %}

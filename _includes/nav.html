@@ -1,4 +1,4 @@
-<nav>
+<nav class="nav">
   <ul class="nav {{include.navclass}}">
     <li>
       <a
@@ -8,6 +8,7 @@
       >
     </li>
     <li><a href="{{site.baseurl}}/planets/" {% if page.url contains 'planets' %}class="current"{% endif %}>Planets</a></li>
-    <li><a href="{{site.baseurl}}/news.html" {% if page.url contains 'news' or page.url contains 'recently-discovered' %}class="current"{% endif %}>News</a></li>
+    <li><a href="{{site.baseurl}}/comets/" {% if page.url contains 'comets' %}class="current"{% endif %}>Comets</a></li>
+    <li><a href="{{site.baseurl}}/news/" {% if page.url contains 'news' or page.url contains 'recently-discovered' %}class="current"{% endif %}>News</a></li>
   </ul>
 </nav>
